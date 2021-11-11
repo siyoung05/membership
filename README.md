@@ -1,4 +1,4 @@
-# 회원관리 프로그램
+# 학생관리 프로그램
 
 # 사용 언어
   javaFX + SceneBuilder + Oracle
@@ -26,17 +26,17 @@
 ### 실행 후 첫화면
 ![로그인첫화면](https://user-images.githubusercontent.com/93521099/141288027-5e694197-6e24-4854-885b-7e6e281c0788.jpg)
 ### 학생등록 첫 화면
-![회원가입 첫 화면](https://user-images.githubusercontent.com/93521099/141289914-5fd35f0f-2af4-4a51-86ac-af6ec0711dba.jpg)
+![1](https://user-images.githubusercontent.com/93521099/141294154-0fcc124c-e644-4e15-b3be-7ee07b0dc1aa.jpg)
 ### 학생정보 입력화면
-![회원가입 입력호마ㅕㄴ](https://user-images.githubusercontent.com/93521099/141290009-a8591553-57c7-4e89-b969-2ac937ae9718.jpg)
+![2](https://user-images.githubusercontent.com/93521099/141294186-f1d95c6f-a775-4e9b-a50e-ac02e7c02a96.jpg)
 ### 학생 등록 후 Oracle화면
 ![DB회원 추가](https://user-images.githubusercontent.com/93521099/141289966-0f04a725-7b9f-4689-8f6c-59ae756384c1.jpg)
 ### 아이디 비번 입력 화면 
 ![로그인 입력화면](https://user-images.githubusercontent.com/93521099/141288083-4efbbf27-331f-4fdf-a18f-e345aaf9b3c3.jpg)
 ### 학생정보수정 첫 화면
-![회원수정첫화면](https://user-images.githubusercontent.com/93521099/141290859-dc0c0f09-5828-4ad3-8a9f-07b86bd45b15.jpg)
+![3](https://user-images.githubusercontent.com/93521099/141294230-8938af20-1168-406b-b3ae-a3fc0a39153d.jpg)
 ### 학생정보수정한 화면
-![회원수정화면](https://user-images.githubusercontent.com/93521099/141290771-d8762152-3f60-4a3b-9442-14f069c673e0.jpg)
+![4](https://user-images.githubusercontent.com/93521099/141294246-c858e05e-e66a-4c5a-ac2e-58a33fc51d58.jpg)
 ### 학생정보수정 후 Oracle화면
 ![회원수정후Oracle](https://user-images.githubusercontent.com/93521099/141290953-d1e5705c-64ab-4173-ba25-391890affb05.jpg)
 
