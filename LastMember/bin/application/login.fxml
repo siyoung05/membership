@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.loginController">
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="399.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-192.0" pickOnBounds="true">
+               <image>
+                  <Image url="@logo.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="-199.0" prefHeight="394.0" prefWidth="606.0">
+               <children>
+                  <AnchorPane layoutX="100.0" layoutY="135.0" prefHeight="104.0" prefWidth="406.0">
+                     <children>
+                        <Label alignment="CENTER" layoutX="14.0" layoutY="20.0" prefHeight="49.0" prefWidth="127.0" style="-fx-background-color: #BDBDBD;" text="패스워드" textAlignment="CENTER">
+                           <font>
+                              <Font name="Gulim" size="18.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="txtPwd" layoutX="151.0" layoutY="20.0" prefHeight="50.0" prefWidth="244.0" promptText="암호를 입력하세요.">
+                           <font>
+                              <Font size="18.0" />
+                           </font></PasswordField>
+                     </children>
+                  </AnchorPane>
+                  <TextField fx:id="txtId" layoutX="252.0" layoutY="98.0" prefHeight="49.0" prefWidth="242.0" promptText="아이디를 입력하세요.">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label alignment="CENTER" layoutX="114.0" layoutY="96.0" prefHeight="53.0" prefWidth="127.0" style="-fx-background-color: #BDBDBD;" text="사용자 아이디" textAlignment="CENTER">
+                     <font>
+                        <Font name="Gulim" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="-141.0" layoutY="234.0" prefHeight="148.0" prefWidth="470.0">
+               <children>
+                  <Label fx:id="lblOk" alignment="CENTER" layoutX="48.0" layoutY="3.0" prefHeight="28.0" prefWidth="285.0" textFill="#0e42ff">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnLogin" layoutX="87.0" layoutY="-14.0" mnemonicParsing="false" onAction="#btnLoginAction" prefHeight="57.0" prefWidth="134.0" style="-fx-background-color: #3104B4;" text="로그인" textFill="#fcfafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnReg" layoutX="234.0" layoutY="-15.0" mnemonicParsing="false" onAction="#btnRegAction" prefHeight="58.0" prefWidth="134.0" style="-fx-background-color: #3104B4;" text="회원가입" textFill="#fcfafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCancel" layoutX="87.0" layoutY="57.0" mnemonicParsing="false" onAction="#btnCancelAction" prefHeight="35.0" prefWidth="134.0" style="-fx-background-color: #3104B4;" text="취소" textFill="#fcfafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnClose" layoutX="234.0" layoutY="57.0" mnemonicParsing="false" onAction="#btnCloseAction" prefHeight="34.0" prefWidth="134.0" style="-fx-background-color: #3104B4;" text="창닫기" textFill="#fcfafa">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
